@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "btarawmilk",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "BTA Pasteurization",
+  "description": "This mod aims to add the pasteurization process to BTA!",
   "authors": [
-    "Turnip Labs"
+    "Raspoza"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"raspoza.btarawmilk.Main"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"raspoza.btarawmilk.Main"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"raspoza.btarawmilk.Main"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"raspoza.btarawmilk.Main"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"btarawmilk.mixins.json"
   ],
 
   "depends": {
