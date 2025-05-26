@@ -34,7 +34,7 @@
 			"raspoza.btarawmilk.Main"
 		],
 		"recipesReady": [
-			"raspoza.btarawmilk.Main"
+			"raspoza.btarawmilk.MilkRecipes"
 		]
 	},
   "mixins": [

@@ -13,7 +13,7 @@ public class MilkItems implements ItemInitEntrypoint {
 	public static Item rawMilkBucket;
 	@Override
 	public void afterItemInit() {
-		freshMilkBucket = new ItemBuilder(MOD_ID).build(new ItemBucketIceCream("freshMilkBucket","minecraft:item/fresh_milk_bucket",25062, 10, 24)).setContainerItem(BUCKET);
+		freshMilkBucket = new ItemBuilder(MOD_ID).build(new ItemBucketIceCream("freshMilkBucket","minecraft:item/bucket_milk_fresh",25062, 10, 24)).setContainerItem(BUCKET);
 
 	}
 }

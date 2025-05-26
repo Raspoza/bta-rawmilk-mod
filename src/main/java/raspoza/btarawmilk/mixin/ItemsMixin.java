@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import static net.minecraft.core.item.Items.BUCKET;
 
 @Mixin(value = Items.class, remap = false)
-public class Milked {
+public class ItemsMixin {
 	@Inject(method = "setupItems", at = @At("TAIL"))
 	private static void replaceMilkBucket(CallbackInfo ci) {
 		Item.itemsList[Items.BUCKET_MILK.id] = null;
