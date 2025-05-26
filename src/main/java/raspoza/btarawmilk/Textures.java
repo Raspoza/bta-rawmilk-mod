@@ -7,6 +7,7 @@ import net.minecraft.client.render.block.model.BlockModelDispatcher;
 import net.minecraft.client.render.item.model.ItemModelDispatcher;
 import net.minecraft.client.render.item.model.ItemModelStandard;
 import net.minecraft.client.render.texture.stitcher.TextureRegistry;
+import net.minecraft.core.item.Items;
 import net.minecraft.core.util.collection.NamespaceID;
 import turniplabs.halplibe.helper.ModelHelper;
 import turniplabs.halplibe.util.ModelEntrypoint;
@@ -26,8 +27,8 @@ public class Textures implements ModelEntrypoint {
 			model.icon = TextureRegistry.getTexture(NamespaceID.getTemp(MOD_ID,"item/food_fresh_milk"));
 			return model;
 		});
-		ModelHelper.setItemModel(MilkItems.rawMilkBucket,()->{
-			ItemModelStandard model = new ItemModelStandard(MilkItems.rawMilkBucket, MOD_ID);
+		ModelHelper.setItemModel(Items.BUCKET_MILK,()->{
+			ItemModelStandard model = new ItemModelStandard(Items.BUCKET_MILK, MOD_ID);
 			model.icon = TextureRegistry.getTexture(NamespaceID.getTemp(MOD_ID,"item/food_raw_milk"));
 			return model;
 		});

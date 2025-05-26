@@ -12,7 +12,7 @@ public class Main implements ModInitializer, RecipeEntrypoint, GameStartEntrypoi
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     @Override
     public void onInitialize() {
-        LOGGER.info("ExampleMod initialized.");
+        LOGGER.info("BTA Pasteurization initialized.");
     }
 
 	@Override

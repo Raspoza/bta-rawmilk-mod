@@ -21,6 +21,12 @@
     "main": [
 			"raspoza.btarawmilk.Main"
     ],
+		"afterItemInit": [
+			"raspoza.btarawmilk.MilkItems"
+		],
+		"initModels": [
+			"raspoza.btarawmilk.Textures"
+		],
 		"beforeGameStart": [
 			"raspoza.btarawmilk.Main"
 		],
