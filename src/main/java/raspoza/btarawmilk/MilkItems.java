@@ -10,10 +10,10 @@ import static raspoza.btarawmilk.Main.MOD_ID;
 
 public class MilkItems implements ItemInitEntrypoint {
 	public static Item freshMilkBucket;
-	public static Item rawMilkBucket;
+
 	@Override
 	public void afterItemInit() {
-		freshMilkBucket = new ItemBuilder(MOD_ID).build(new ItemBucketIceCream("freshMilkBucket","minecraft:item/bucket_milk_fresh",25062, 10, 24)).setContainerItem(BUCKET);
+		freshMilkBucket = new ItemBuilder(MOD_ID).build(new ItemBucketIceCream("freshMilkBucket","minecraft:item/bucket_milk_fresh",Main.config.getInt("ids.freshMilkBucket"), 10, 24)).setContainerItem(BUCKET);
 
 	}
 }
