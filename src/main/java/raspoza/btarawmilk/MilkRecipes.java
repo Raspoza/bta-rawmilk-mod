@@ -72,6 +72,7 @@ public class MilkRecipes implements ModInitializer, RecipeEntrypoint {
 			.addInput('S', Items.AMMO_SNOWBALL)
 			.addInput('B', Items.DYE, 3)
 			.addInput('F', MilkItems.freshMilkBucket)
+			.setConsumeContainer(true)
 			.create("ice_cream_bucket", Items.BUCKET_ICECREAM.getDefaultStack());
 	}
 }
